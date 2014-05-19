@@ -103,7 +103,7 @@ Semantic, and Ansi-Color faces are included.")
    `(font-lock-constant-face        ((,class (:weight light :foreground ,blue-3))))
    `(font-lock-function-name-face   ((,class (:foreground ,red-3))))
    `(font-lock-keyword-face         ((,class (:foreground ,blue-3 :weight light))))
-   `(font-lock-string-face          ((,class (:foreground ,choc-3 :slant italic))))
+   `(font-lock-string-face          ((,class (:foreground ,choc-3))))
    `(font-lock-type-face            ((,class (:foreground ,blue-3))))
    `(font-lock-variable-name-face   ((,class (:foreground ,red-3))))
    ;; Button and link faces
