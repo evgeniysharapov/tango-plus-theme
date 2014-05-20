@@ -87,8 +87,14 @@ Semantic, and Ansi-Color faces are included.")
    `(helm-swoop-target-line-block-face ((,class (:background ,alum-1))))
    `(trailing-whitespace            ((,class (:background ,red-1))))
    ;; Mode line faces
-   `(mode-line                      ((,class (:background ,alum-5 :foreground ,alum-1))))
+   `(mode-line                      ((,class (:background ,blue-3 :foreground ,alum-1))))
    `(mode-line-inactive             ((,class (:background ,alum-4 :foreground ,alum-3))))
+   ;; Powerline
+   `(powerline-active1              ((,class (:foreground ,black :background ,blue-1))))
+   `(powerline-active2              ((,class (:foreground ,white :background ,blue-3))))
+   `(powerline-inactive1            ((,class (:foreground ,alum-4 :background ,alum-2))))
+   `(powerline-inactive2            ((,class (:foreground ,white :background ,alum-4))))
+
    ;; Window border face
    `(vertical-border                ((,class (:foreground ,alum-3))))
    ;; Escape and prompt faces
