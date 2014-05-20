@@ -166,6 +166,15 @@ Semantic, and Ansi-Color faces are included.")
    ;; Flyspell
    `(flyspell-duplicate             ((,class (:underline ,orange-1))))
    `(flyspell-incorrect             ((,class (:underline ,red-1 :background ,red-0))))
+   ;; Outline
+   `(outline-1                      ((,class (:foreground ,blue-3 :weight bold))))
+   `(outline-2                      ((,class (:foreground ,plum-3 :weight bold))))
+   `(outline-3                      ((,class (:foreground ,red-3 :weight bold))))
+   `(outline-4                      ((,class (:foreground ,cham-3 :weight bold))))
+   `(outline-5                      ((,class (:foreground ,orange-3 :weight bold))))
+   `(outline-6                      ((,class (:foreground ,choc-3 :weight bold))))
+   `(outline-7                      ((,class (:foreground ,butter-3 :weight bold))))
+   `(outline-8                      ((,class (:foreground ,blue-2))))
    ;; Org mode
    `(org-level-1                    ((,class (:foreground ,blue-3 :weight bold))))
    `(org-level-2                    ((,class (:foreground ,blue-3))))
