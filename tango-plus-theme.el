@@ -199,6 +199,10 @@ Semantic, and Ansi-Color faces are included.")
    `(org-date                       ((,class (:foreground ,plum-1))))
    `(org-footnote                   ((,class (:foreground ,alum-5))))
    `(org-hide                       ((,class (:foreground ,alum-1))))
+   `(org-block-background           ((,class (:background "#f9f9f9"))))
+   `(org-block-begin-line           ((,class (:inherit org-meta-line :background ,alum-1))) t)
+   `(org-block-end-line             ((,class (:inherit org-block-begin-line))) t)
+
    ;; Mu4e
    `(mu4e-flagged-face              ((,class (:foreground ,red-3 :weight bold))))
    `(mu4e-unread-face               ((,class (:foreground ,blue-3 :weight bold))))
