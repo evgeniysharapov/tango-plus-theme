@@ -73,7 +73,7 @@ Semantic, and Ansi-Color faces are included.")
    `(default                        ((,class (:foreground ,black :background ,white))))
    `(cursor                         ((,class (:inverse-video t))))
    ;; Highlighting faces
-   `(fringe                         ((,class (:foreground ,alum-1 :background ,white))))
+   `(fringe                         ((,class (:foreground ,alum-3 :background ,white))))
    `(highlight                      ((,class (:background ,alum-1))))
    `(sentence-highlight-face        ((,class (:background ,alum-1))))
    `(show-paren-match               ((,class (:background ,alum-2))))
