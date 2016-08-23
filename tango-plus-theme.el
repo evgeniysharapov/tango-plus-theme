@@ -87,6 +87,7 @@ Semantic, and Ansi-Color faces are included.")
    `(helm-swoop-target-line-face    ((,class (:background ,alum-1))))
    `(helm-swoop-target-line-block-face ((,class (:background ,alum-1))))
    `(trailing-whitespace            ((,class (:background ,red-1))))
+   `(hl-line                        ((,class (:inherit highlight))) )
    ;; Mode line faces
    `(mode-line                      ((,class (:background ,blue-3 :foreground ,alum-1))))
    `(mode-line-inactive             ((,class (:background ,alum-4 :foreground ,alum-3))))
